@@ -1,0 +1,23 @@
+{
+  "name": "gettinginfofromapis",
+  "version": "1.0.0",
+  "description": "Project that experiments with information gathered from a public API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Lithyablake/gettinginfofromapis.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "API"
+  ],
+  "author": "Mariana Cortés",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lithyablake/gettinginfofromapis/issues"
+  },
+  "homepage": "https://github.com/Lithyablake/gettinginfofromapis#readme"
+}
