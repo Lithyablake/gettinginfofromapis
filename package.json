@@ -4,7 +4,8 @@
   "description": "Project that experiments with information gathered from a public API",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback:challenge": "node ./src/challenge.js",
+    "promise": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
