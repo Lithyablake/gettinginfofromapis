@@ -1,7 +1,7 @@
 let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest; //Esta línea me trae la dependencia descargada Por la terminal // 
 let API = 'https://rickandmortyapi.com/api/character/'
 
-
+//Repasando callbacks//
 function fetchData(url_api, callback) { //Esta línea empieza la función: el primer parámetro el url, el segundo el callback // 
     let xhttp = new XMLHttpRequest(); // nombro la dependencia en la función // 
     xhttp.open('GET', url_api, true); //"Cuando use la dependencia, traiga el URL del api -- Ojo con este último 'true' - es para decir que asíncrono?? // 
@@ -18,6 +18,7 @@ function fetchData(url_api, callback) { //Esta línea empieza la función: el pr
     xhttp.send(); //Aquí se envía la solicitud//
 }
 
+//Aplicando la función para resolver el reto de la clase con callbacks//
 fetchData(API, function(error1, data1) {
     if (error1) return console.error(error1);
     fetchData(API + data1.results[0].id, function(error2, data2){

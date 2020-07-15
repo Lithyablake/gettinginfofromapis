@@ -4,8 +4,9 @@
   "description": "Project that experiments with information gathered from a public API",
   "main": "src/index.js",
   "scripts": {
-    "callback:challenge": "node ./src/challenge.js",
-    "promise": "node ./src/index.js"
+    "withCallback": "node ./src/callbacks.js",
+    "promise": "node ./src/promises.js",
+    "async": "node ./src/async.js"
   },
   "repository": {
     "type": "git",
